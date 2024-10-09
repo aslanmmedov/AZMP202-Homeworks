@@ -1,0 +1,62 @@
+*{
+    padding-left: 30px;
+}
+.container{
+    background-color:antiquewhite;
+}
+.container .first{
+    color:aquamarine;
+}
+.container01 a{
+    background-color:blanchedalmond;
+}
+.container02 .insider li:first-child{
+    color:red;
+}
+.container02 .insider ul {
+    background-color:blueviolet ;
+}
+.insider li:nth-child(odd){
+    padding-left: 40px;
+}
+#id1{
+    color:aqua;
+}
+.container03 #id2{
+    color:aquamarine;
+}
+h1, h2{
+   background-color:aliceblue;
+}
+.container04 >p{
+    color:chartreuse;
+}
+.container04 .insider02 >p{
+    color:coral;
+}
+.container05 + p{
+    background-color: lightseagreen;
+}
+input:checked{
+    color:brown;
+}
+.classone:focus{
+    background-color: red;
+}
+.aslan1{
+    width:100px;
+    height:100px;
+    background-color: blue;
+}
+.aslan1:hover{
+    background-color: black;
+}
+.container07 input:optional{
+    background-color: fuchsia;
+}
+.container07 input:required{
+    background-color:blanchedalmond;
+}
+.container08 a:visited{
+    size:50px;
+}
