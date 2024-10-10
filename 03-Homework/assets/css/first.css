@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    margin:30px auto;
+    display:flex;
+    width:70%;
+    height:500px;
+    background-color:lightgrey;
+}
+.first{
+    text-align: center;
+    background-color:#F4F4F4;
+}
+.first h2{
+    margin-top:10px;
+    font-size:25px;
+}
+.first p{
+    margin-top:15px;
+}
+.first .bt1{
+    margin-top:35px;
+    width:160px;
+    padding:5px 25px;
+    border:none;
+    background-color:#2E2E2E;
+    color:white;
+}
+.first .fa-brands{
+    margin:15px 8px;
+    font-size: 20px;
+    color:#2E2E2E;
+}
+img{
+    margin:70px 120px 20px 120px;
+    width:190px;
+    height:190px;
+}
+.second{
+    margin:100px 50px;
+}
+.second h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.second p{
+    margin-top:15px;
+}
+.second .bt2{
+
+    margin:100px 25px 100px 2px;
+    width:140px;
+    padding:5px 25px;
+    border:none;
+    background-color:#2E2E2E;
+    color:white;
+}
+.second .bt2:hover{
+    color:#2E2E2E;
+    background-color:#F4F4F4;
+    transition: 0.5s;
+}
+.first .bt1:hover{
+    color:#2E2E2E;
+    background-color:lightgrey;
+    transition: 0.5s;
+}
