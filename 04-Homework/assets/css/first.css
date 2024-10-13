@@ -9,10 +9,10 @@ body{
 }
 
 .container{
-    width:30%;
+    width:377px;
     border:2px solid green;
     background-color:antiquewhite;
-    height:40vh;
+    height:270px;
     position:relative;
     top:100px;
     left:300px;
