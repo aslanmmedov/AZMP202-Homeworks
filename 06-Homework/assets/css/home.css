@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    outline:none;
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+}
+header{
+    color:white;
+}
+nav{
+    background-color: #090909;
+}
+#header-section{
+    background-color:#090909 ;
+}
+.a{
+    background-color:#090909  ;
+    border:none;
+    width:58px;
+    opacity:0.5;
+    font-size: 15px;
+    color:white;
+}
+a{
+    color:white;
+}
+#id2{
+    width:80px;
+}
+
+.col-6 ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    opacity:0.5;
+}
+#header-section .row{
+padding:60px 10px 50px 30px;
+}
+.col-6.img-left{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.row .header-second{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width:65%;
+    gap:30px;
+}
+.header-second h1{
+    font-size:50px;
+    font-weight: 600;
+}
+.col-6.img .img1{
+    width:80%;
+}
+.col-6.img .img1 img{
+    width:100%;
+    border-radius: 10px;
+}
+.lnks{
+    margin-top:25px;
+}
+.get-start{
+    padding:12px 30px;
+    background-color: #0D6EFD;
+    border-radius:8px;
+    margin-right:20px;
+}
+.learn-more{
+    padding:12px 30px;
+    border:1px solid white;
+    border-radius:8px;
+}
+.get-start a{
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    font-size: 15px;
+}
+.learn-more a{
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+main .container .row{
+    padding:20px 0;
+}
+main .container .row .col-4 .col-12{
+    margin-bottom:20px;
+}
+
+
+.col-4 h2{
+    padding:20px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.col-4 .row .col-12 i{
+    font-size: 40px;
+    color:#0D6EFD;
+    margin-bottom:15px;
+}
+.col-4 .row .col-12 h3{
+    font-size:22px;
+    margin-bottom:15px;
+}
+.container.b{
+    width:30%;
+    text-align: center;
+}
+#section3{
+    background-color: #F8F9FA;
+
+}
+.container .parag{
+    padding:80px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;
+}
+.parag p{
+    margin-bottom:20px;
+}
+.parag span{
+    color:#0D6EFD;
+    font-weight: 600;
+}
+
+.row .col-12 .fr-blg{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fr-blg p{
+    width:500px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.fr-blg h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin:20px 0;
+}
+.col-4 .box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#DEE1E6;
+    width:300px;
+
+    border:1px solid #DEE1E6;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box img{
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.col-4 .box h2{
+    font-size:30px;
+}
+.col-4 .box p{
+    font-weight: 500;
+}
+.box-4 .insider{
+    padding:10px;
+}
+.insider{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.col-12 .footer-blue{
+    background-color:#0D6EFD;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:40px;
+    padding:30px;
+    color:white;
+    border-radius: 10px;
+}
+.col-12 .footer-blue .parags h2{
+    font-weight:600;
+    font-size:30px;
+}
+.parags p{
+    margin-top:10px;
+    opacity:0.5;
+}
+.email .input{
+    padding:11px 100px 11px 20px;
+    width:300px;
+    border-radius:8px;
+    border:none;
+}
+.email{
+    position:relative;
+}
+.email .btn-sign-up{
+    padding:10px 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px ;
+    border:none;
+    position: absolute;
+    right:0;
+    cursor: pointer;
+    background-color:#0D6EFD;
+    border:1px solid white;
+    color:white;
+}
+.email .btn-sign-up:focus{
+background-color:white;
+color:#0D6EFD;
+}
+footer{
+    background-color:#090909;
+}
+.col-12 .footer{
+    padding:10px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    
+}
+.footer p{
+    opacity:0.5;
+}
+.footer .links a{
+    color:white;
+    opacity:0.5;
+    text-decoration: underline;
+}
