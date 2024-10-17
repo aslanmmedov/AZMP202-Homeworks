@@ -8,7 +8,7 @@
 .container{
     margin:30px auto;
     display:flex;
-    width:70%;
+    width:48vw;
     height:500px;
     background-color:lightgrey;
 }

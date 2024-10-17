@@ -154,6 +154,65 @@ img.images{
     color:#212529;
     font-size:15px;
 }
+#map{
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3drNTgwMzc2NzItaW1hZ2UuanBn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padding50{
+    padding:20px;
+}
+.contact-us{
+    text-align: center;
+    color:white;
+
+}
+.contact-us h1{
+    font-size: 40px;
+}
+.contact-us p{
+    font-size: 17px;
+    opacity: 0.5;
+    font-style: italic;
+}
+.inputs{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding:1rem;
+    gap:15px;
+}
+.inputs input{
+    padding:1.5rem;
+    border:none;
+    border-radius: 10px;
+}
+.inputs .ymesage{
+    padding:1.5rem;
+    border:none;
+    border-radius: 10px;
+    grid-row: span 3;
+}
+.btn-send-mesage{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-send-mesage button{
+    width:200px;
+    padding:20px 20px;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:#FED136;
+    color:white;
+}
+.btn-send-mesage button:hover{
+    background-color:#d3af2b;
+    color:rgb(223, 221, 221);
+}
 @media only screen and (max-width: 767px){ 
 
     .head-sec h3{
