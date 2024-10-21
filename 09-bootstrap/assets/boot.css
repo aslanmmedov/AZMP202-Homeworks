@@ -1,0 +1,51 @@
+nav{
+    background-color:#212529;
+}
+.nav-clr{
+    color:white;
+}
+.nav a{
+    color:white;
+}
+.banner{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding:10rem 0;
+}
+.banner h1{
+    font-size: 3rem;
+    width:50%;
+    text-align: center;
+}
+.banner p{
+    font-size: 1.1rem;
+    width:50%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom:2rem;
+}
+.buttons{
+    display:flex;
+    gap:2rem;
+}
+.buttons .blue , .black{
+    padding:12px 25px;
+    border: none;
+    border-radius: 10px;
+}
+.blue{
+    background-color:#0D6EFD;
+    color:white;
+}
+.black{
+    border:2px solid white;
+    background-color:#212529;
+    color:white;
+}
+.black:hover{
+    background-color:white;
+    color:#212529;
+}
