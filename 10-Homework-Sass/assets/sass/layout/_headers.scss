@@ -19,6 +19,9 @@
                     display:none;
                 }
             }
+            @include for-phone-only{
+                padding:0 2rem;
+            }
             button{
                 @extend %primary-button;
                 background-color:transparent;
@@ -40,10 +43,12 @@
                     display:none;  
                 @include for-phone-only{
                     display:block;
+                   
                 }
                 }
                 @include for-phone-only{
                     display:block;
+                    
                 }
                 
             }
