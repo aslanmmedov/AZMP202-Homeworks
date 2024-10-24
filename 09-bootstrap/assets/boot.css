@@ -49,3 +49,34 @@ nav{
     background-color:white;
     color:#212529;
 }
+
+.card .fa-folder-open{
+    font-size: 4rem;
+    color:#0D6EFD;
+    margin-bottom: 1rem;
+}
+.card{
+    margin-top:3rem;
+    border:none;
+    text-decoration: none;
+}
+#pricing{
+    background-color:#F8F9FA;
+}
+.head{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+.head h2{
+    font-size: 2rem;
+    color:#212529;
+    margin-top:3rem;
+    margin-bottom: 1rem;
+}
+.head p{
+    font-weight: 100;
+    font-size: 1rem;
+}

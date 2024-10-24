@@ -1,0 +1,16 @@
+@mixin FlexBox($justify:space-between , $align:center){
+    display:flex;
+    align-items:$align ;
+    justify-content:$justify;
+}
+@mixin for-phone-only {
+    @media (max-width: 728px) { @content; }
+  }
+
+  @mixin for-tablet-only {
+    @media (min-width: 991px) { @content; }
+  }
+  @mixin for-desktop-only {
+    @media (max-width: 1200px) { @content; }
+  }
+ 

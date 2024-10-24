@@ -1,0 +1,144 @@
+#header{
+    
+    #navbar{
+        background-color:$bgc-main;
+        .navbar{
+            height:85px;
+            @include FlexBox();
+            ul{
+                @include FlexBox();
+                gap:4rem;
+                li{
+                    a{
+                        color:$white;
+                        font-size:16px;
+                        font-weight: 400;
+                    }
+                }
+                @include for-phone-only{
+                    display:none;
+                }
+            }
+            button{
+                @extend %primary-button;
+                background-color:transparent;
+                border-color:$page-gray;
+                color:$white;
+                font-size:1rem;
+                &:hover{
+                    background-color:$page-gray;
+                    color:$bgc-main;
+                }
+                @include for-phone-only{
+                    display:none;
+                }
+            }
+            
+            .menu{
+                display:none;
+                img{
+                    display:none;  
+                @include for-phone-only{
+                    display:block;
+                }
+                }
+                @include for-phone-only{
+                    display:block;
+                }
+                
+            }
+        }
+    }
+    #hero-banner{
+        background-color:$bgc-main;
+        .hero-banner{
+            @include for-phone-only{
+                flex-direction: column-reverse;
+            }
+            
+        }
+        .banner-content{
+            margin-top:4rem;
+            @include for-phone-only{
+                margin-top:0;
+            }
+            @include FlexBox();
+            flex-direction:column;
+            align-items:flex-start;
+            gap:1.5rem;
+            position:relative;
+            .pos-img{
+                position: absolute;
+                right:30%;
+            }
+            h5{
+                color:$main-btn-color;
+            }
+            h1{
+                color:$white;
+                position:relative;
+                width:70%;
+            }
+            p{
+                color:$white;
+                opacity:0.6;
+                width:70%;
+            }
+            button{
+                @extend %primary-button;
+                transition:0.6s;
+            }
+            .how-we{
+                background-color:$main-btn-color;
+                color:$white;
+                font-size: 1rem;
+                margin-right:1rem;
+                &:hover{
+                    background-color:$white;
+                    color:$main-btn-color;
+                }
+            }
+            .contact-us{
+                background-color:transparent;
+                border-color:transparent;
+                color:$white;
+                &:hover{
+                    border-color:$white;
+                    color:$main-btn-color;   
+                }
+            }
+            .feedback{
+                @include FlexBox();
+                gap:1rem;
+                padding:4rem 0;
+                .content{
+                    p{
+                        width:100%;
+                    }
+                    span{
+                        margin-top:10px;
+                        color:white;
+                    }
+                }
+            }
+        }
+        .hero-img{
+            margin-top:4rem;
+            img{
+                width:100%;
+            }
+        }
+    }
+    #partners{
+        background-color:$bgc-secondary;
+        .partner-imgs{
+            border-bottom: 1px solid $second-header-color;
+            @include FlexBox();
+            justify-content: space-between;
+            padding:4rem 0;
+            @include for-phone-only{
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
