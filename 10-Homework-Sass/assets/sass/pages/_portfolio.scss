@@ -85,23 +85,78 @@
 }
 
 #portfolio-main {
+    background-color:$bgc-secondary;
     .shortcuts {
         .short-head {
+            padding-top:4rem;
             ul{
-                margin-top: 4rem;
+                
                 @include FlexBox();
                 justify-content: center;
+                @include for-phone-only{
+                    flex-wrap: wrap;
+                }
                 gap:2rem;
+                margin-bottom:3rem;
                 .ad{
                     opacity: 1;
                 }
                 a{
                     color:$second-header-color;
+                    font-size: 1.4rem;
                     opacity: 0.6;
                 }
                 
             }
         }
 
+    }
+    #portfolio-imgs{
+        .portfolio-imgs{
+            position:relative;
+            h2{
+                color:$white;
+                margin-top:1rem;
+            }
+            span{
+                color:$second-header-color;
+                background-color:$white;
+                border-radius:17px; 
+                padding:10px 7px;
+                font-size: 1.1rem;
+            }
+            img{
+                width:100%;
+            }
+            .door-img{
+                position:absolute;
+                left:40px;
+                bottom:40px;
+            }
+        }
+        .pages{
+            ul{
+                @include FlexBox();
+                justify-content: center;
+                gap:40px;
+                margin-top:4rem;
+                @include for-phone-only{
+                    gap:3%;
+                }
+                li{
+                    color:$second-header-color;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    background-color: $white;
+                    padding:0.8rem 1.2rem;
+                    border-radius: 8px;
+                    
+                }
+                #differ{
+                    background-color:$main-btn-color;
+                    color:$white;
+                }
+            }
+        }
     }
 }
