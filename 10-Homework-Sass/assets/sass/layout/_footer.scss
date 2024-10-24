@@ -1,0 +1,125 @@
+#footer{
+    background-color:$bgc-secondary;
+    padding-top:5rem;
+    .footer-content{
+        .flex-direct-footer{
+            @include for-phone-only{
+                flex-direction: column-reverse;
+            }
+            
+        }
+        .hero-banner{
+            background-color:$main-btn-color;
+        }
+        .banner-content{
+            margin-top:4rem;
+            padding-left:4rem;
+            padding-top:3rem;
+            @include for-phone-only{
+                margin-top:0;
+            }
+            @include FlexBox();
+            flex-direction:column;
+            align-items:flex-start;
+            gap:1.5rem;
+            
+            h1{
+                color:$white;
+                width:80%;
+            }
+            p{
+                color:$white;
+                opacity:0.6;
+                width:75%;
+            }
+            button{
+                @extend %primary-button;
+                transition:0.6s;
+            }
+            .contact-us{
+                margin-top:2rem;
+                background-color:$white;
+                border-color:transparent;
+                color:$second-header-color;
+                font-weight: 700;
+                &:hover{
+                    border-color:$white;
+                    color:$main-btn-color;   
+                }
+            }
+        }
+        .hero-img{
+            margin-top:4rem;
+            padding-right:4rem;
+            img{
+                width:90%;
+            }
+        }
+
+
+        .footer-line{
+            border-bottom: 2px solid $main-btn-color;
+            margin-top:5rem;
+            margin-bottom: 3rem;
+            @include for-phone-only{
+                text-align: center;
+            }
+            .col-3{
+                h3{
+                    color:$second-header-color;
+                }
+                h4{
+                    margin-top:15px;
+                    color:$main-btn-color;
+                }
+                ul{
+                    
+                    margin-top:1rem;
+                    @include FlexBox();
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items:center;
+                    align-items:flex-start;
+                    @include for-phone-only{
+                        align-items:center;
+                    }
+                    gap:0.8rem;
+                    li{
+                        font-size:16px;
+                        color:$second-header-color;
+                    }
+                }
+                .incs{
+                    @include FlexBox();
+                    justify-content: center;
+                    gap:2rem;
+                    margin-top:15px;
+                    i{
+                        font-size: 2.5rem;
+                        color:$main-btn-color;
+                    }
+                }
+                margin-bottom: 5rem;
+            }
+        }
+        .footer-end{
+            @include FlexBox();
+            p{
+                opacity: 0.6;
+            }
+            @include for-phone-only{
+                text-align: center;
+            }
+            .privacy{
+                @include FlexBox;
+                gap:4rem;
+                a{
+                    color:$second-header-color;
+                    font-size: 1rem;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+        
+}
