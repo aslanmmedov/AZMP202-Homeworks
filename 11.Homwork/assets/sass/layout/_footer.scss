@@ -1,0 +1,92 @@
+#footer{
+    #contactus{
+        .about-us{
+            padding:4rem;
+
+            h4{
+                color:$bgc-secondary;
+            }
+            p{
+                font-size:16px;
+                opacity: 0.6;
+                margin:1rem 0;
+                line-height: 25px;
+            }
+            .nums p{
+                    margin:5px 0;
+                    font-size: 23px;
+                    color:$bgc-main;
+                    opacity:1;
+                    
+                 }
+        }
+        .form-card{
+            padding: 4rem 1rem;
+            .form{
+                    margin-top:1rem;
+                    position:relative;
+                    
+
+                    input{
+                        width:100%;
+                        padding:0.4rem 2rem;
+                        border-radius: 40px;
+                        border:none;
+                        background-color:$price-list-color;
+                         }
+                     button{
+                            position:absolute;
+                            width:10%;
+                            height:98%;
+                            right:2px;
+                            border-radius:50%;
+                            border:none;
+                            color:$bgc-secondary;
+                            background-color:$bgc-main;
+         }
+                }
+        }
+        .parag{
+            p{
+                padding-left:4rem;
+                font-size:13px;
+                opacity:0.6;
+                a{
+                    color:$bgc-main;
+                    font-size:16px;
+                    opacity:1;
+                }
+            }
+        }
+        .icns{
+            padding-right:40px;
+            ul{
+                display:flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap:20px;
+                li{
+                    padding:10px;
+                    background-color:$bgc-secondary;
+                    color:$white;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// #contactus{
+//     background-color:#222222;
+//     color:white;
+// }

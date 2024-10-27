@@ -1,0 +1,100 @@
+#header{
+    #navbar{
+        #sec-nav-first{
+            border-bottom:1px solid $table-top-gray;
+            padding:0.6rem 0;
+        }
+        #sec-nav-second{
+            padding:1.5rem 0;
+        }
+        .navbar-first-section{
+            @include FlexBox();
+            .nav-parag{
+                p{
+                    
+                    width:66%;
+                }
+            }
+            .nav-logo{
+                img{
+                    width:100%;
+                    padding-right:9rem;
+                    cursor: pointer;
+                }
+            }
+            .nav-contact{
+                @include FlexBox();
+                gap:1rem;
+                i{
+                    background-color:$bgc-main;
+                    padding:2rem;
+                    color:$white;
+                    cursor: pointer;
+                }
+                a{
+                    color:$bgc-secondary;
+                }
+            }
+        }
+        .nav-pages{
+            ul{
+                
+                @include FlexBox();
+                justify-content: center;
+                gap:1.4rem;
+                li{
+                    a{
+                        color:$bgc-secondary;
+                        font-size: 14px;
+                        transition: 0.6s;
+                        &:hover{
+                            color:$bgc-main;
+                        }
+                    }
+                    #red{
+                        color:$bgc-main;
+                        transition: 0.6s;
+                        &:hover{
+                            color:$bgc-secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #hero-banner-overlay{
+        background-color: rgba(0, 0, 0, 0.466);
+        z-index: 100;
+        #hero-banner{
+            background-image: url(https://preview.colorlib.com/theme/gym/img/header-bg.jpg);
+            background-position:center ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            .bgc-img{
+                padding-top:2rem;
+                .hero-parag{
+                    
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    gap:1.5rem;
+                    padding:2rem 0;
+                    padding-bottom:14rem;
+                    h2{
+                        width: 70%;
+                        color:$white;
+                        text-transform: uppercase;
+                        font-size: 60px;
+                    }
+                    p{
+                        color:$white;
+                    }
+                }
+            }
+        }
+    }
+   
+}
