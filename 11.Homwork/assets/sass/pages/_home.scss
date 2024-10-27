@@ -73,7 +73,8 @@
                     font-size: 16px;
                     &:hover{
 
-                        border:3px solid rgb(111, 185, 185);
+                        border:1px solid rgba(25, 168, 196, 0.635);
+                        box-shadow: rgba(25, 168, 196, 0.635) 0px 3px 8px;
                     }
                 }
                 button{
@@ -86,7 +87,6 @@
             }
         }
     }
-
     #courses{
         .card-holder{
             position:relative;

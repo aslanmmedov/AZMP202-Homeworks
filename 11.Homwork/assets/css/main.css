@@ -538,7 +538,8 @@ p {
   font-size: 16px;
 }
 #main #body-mass .body-mass-counter form input:hover {
-  border: 3px solid rgb(111, 185, 185);
+  border: 1px solid rgba(25, 168, 196, 0.635);
+  box-shadow: rgba(25, 168, 196, 0.635) 0px 3px 8px;
 }
 #main #body-mass .body-mass-counter form button {
   border-radius: 20px;
