@@ -96,50 +96,32 @@
 //Aylarin adina gore nece gunden ibaret olmalari task 5
 
 
-// let a = prompt("enter month name")
-// a = a[0].toUpperCase()+a.slice(1);
+let a = prompt("enter month name")
+a = a[0].toUpperCase()+a.slice(1);
 
-// if(a!=null){
-//     switch(a){
-//         case "January":
-//             alert("January has 31 days in it")
-//             break;
-//         case "Feburary":
-//                 alert("Feburary has 28 days in it")
-//                 break;
-//         case "March":
-//                 alert("March has 31 days in it")
-//                 break;
-//         case "April":
-//                 alert("April has 30 days in it")
-//                 break;
-//         case "May":
-//                 alert("May has 31 days in it")
-//                 break;
-//         case "June":
-//                 alert("June has 30 days in it")
-//                 break;
-//         case "July":
-//                 alert("July has 31 days in it")
-//                 break;
-//         case "Augost":
-//                 alert("Augost has 31 days in it")
-//                 break; 
-//         case "September":
-//                 alert("September has 30 days in it")
-//                 break;
-//         case "Oktober":
-//                 alert("Oktober has 31 days in it")
-//                 break;
-//         case "November":
-//                 alert("November has 30 days in it")
-//                 break;
-//         case "December":
-//                 alert("December has 31 days in it")
-//                 break;
-//         default:
-//             alert("bele bir ay yoxdur")
-//             break;
-//     }
-// }
+if(a!=null){
+    switch(a){
+        case "December":
+        case "March":
+        case "May":
+        case "July":
+        case "Augost":
+        case "Oktober":
+        case "January":
+            alert(`${a} has 31 days in it`)
+            break;  
+        case "April":
+        case "June":
+        case "November":
+        case "September":
+                alert(`${a} has 30 days in it`)
+                break;
+        case "Feburary":
+                alert("Feburary has 28 days in it")
+                break;
+        default:
+            alert("bele bir ay yoxdur")
+            break;
+    }
+}
 
