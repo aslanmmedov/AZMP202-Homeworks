@@ -392,6 +392,11 @@ p {
 #header #navbar .navbar-first-section .nav-parag p {
   width: 66%;
 }
+@media (max-width: 728px) {
+  #header #navbar .navbar-first-section .nav-parag {
+    display: none;
+  }
+}
 #header #navbar .navbar-first-section .nav-logo img {
   width: 100%;
   padding-right: 9rem;

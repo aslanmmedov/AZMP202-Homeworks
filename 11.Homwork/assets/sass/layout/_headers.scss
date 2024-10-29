@@ -11,8 +11,11 @@
             @include FlexBox();
             .nav-parag{
                 p{
-                    
                     width:66%;
+                    
+                }
+                @include for-phone-only{
+                    display:none;
                 }
             }
             .nav-logo{

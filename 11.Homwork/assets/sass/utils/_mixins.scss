@@ -3,7 +3,7 @@
     align-items:$align ;
     justify-content:$justify;
 }
-@mixin for-phone-only {
+  @mixin for-phone-only {
     @media (max-width: 728px) { @content; }
   }
 
