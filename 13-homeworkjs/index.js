@@ -1,5 +1,5 @@
 
-//1-ci task
+//1-ci task//serti sehf oxumusam ama deyismeyecem(yeniden yazmiram) 3 ayri ededle islemeli oldugumuzu dusundum
 
 // let a = 5;
 // let b = 7;
@@ -152,7 +152,23 @@
 //     console.log(index)
 // }
 
-// #2
+
+
+//#2
+
+// const fruits = ["alma", "banan", "qarpız", "portağal  ", "ananas", "nar"];
+
+// let fruit = fruits[0]
+// for (let index = 0; index < fruits.length; index++) {
+//     if(fruits[index].length > fruit.length){
+//         fruit = fruits[index];
+//     }   
+// }
+// alert(fruit)
+
+
+
+// #3
 
 
 // const products = [
@@ -192,3 +208,56 @@
 //     cem+=products[index].price;
 //   }
 //   alert(`cem:${cem}, ededi orta${cem/products.length}`)
+
+
+
+
+
+//#14
+
+// let array =[-10,12,-23,40,60,73,-6,-20];
+
+// let eded = 12;
+
+// let bool ;
+// for (let index = 0; index < array.length; index++) {
+//     if(array[index] === eded){
+//         bool = true;
+//     }
+    
+// }
+// console.log(bool)
+
+
+//#15
+
+
+// const students = [
+//     { name: "Ali", scores: [90, 85, 92] },
+//     { name: "Mammal", scores: [75, 80, 85] },
+//     { name: "Camil", scores: [90, 95, 85] },
+//     { name: "Davud", scores: [100, 100, 100] }
+//   ];
+
+// let best = 0;
+// let ortbal = [];
+//   for (let index = 0; index < students.length; index++) {
+//     for (let i = 0; i < students[index].scores.length; i++) {
+//         best+=students[index].scores[i];
+//     }
+//     ortbal.push(best/3)
+//     best = 0;
+//   }
+
+
+// let yuksek = ortbal[0];
+// let plus = ortbal[0];
+//   for (let index = 0; index < ortbal.length; index++) {
+//     if(ortbal[index] > yuksek){
+//         yuksek = ortbal[index];
+//     }
+//     else if(ortbal[index] > 90){
+//         plus = ortbal[index]
+//     }
+//   }
+// console.log(`en yuksek:${yuksek}, 90 dan yuxari:${plus}`)

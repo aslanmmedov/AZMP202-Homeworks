@@ -1,7 +1,7 @@
 
 //ilk task 3 ededden en boyuk cem alinan kombinasiyani tapib yazmaq
 
-// let num1 = +prompt("enter a number:")
+// let num1 = +prompt("enter a number:")   
 // let num2 = +prompt("enter second number:")
 // let num3 = +prompt("enter third number:")
 // if(num1 > num2 && num2>num3){
@@ -36,6 +36,7 @@
 //     alert(`Big number${a}${c}${b}`)
 //     alert(`Small number${b}${c}${a}`)
 // }
+
 // else if(b>c && c>a){
 //     alert(`Big number${b}${c}${a}`)
 //     alert(`Small number${a}${c}${b}`)
@@ -75,6 +76,8 @@
 
 
 
+
+
 //verilen 3 reqemli ededi parcalamaq 4 cu task
 
 // let a = prompt("enter a number which at least 100")
@@ -96,32 +99,32 @@
 //Aylarin adina gore nece gunden ibaret olmalari task 5
 
 
-let a = prompt("enter month name")
-a = a[0].toUpperCase()+a.slice(1);
+// let a = prompt("enter month name")
+// a = a[0].toUpperCase()+a.slice(1);
 
-if(a!=null){
-    switch(a){
-        case "December":
-        case "March":
-        case "May":
-        case "July":
-        case "Augost":
-        case "Oktober":
-        case "January":
-            alert(`${a} has 31 days in it`)
-            break;  
-        case "April":
-        case "June":
-        case "November":
-        case "September":
-                alert(`${a} has 30 days in it`)
-                break;
-        case "Feburary":
-                alert("Feburary has 28 days in it")
-                break;
-        default:
-            alert("bele bir ay yoxdur")
-            break;
-    }
-}
+// if(a!=null){
+//     switch(a){
+//         case "December":
+//         case "March":
+//         case "May":
+//         case "July":
+//         case "Augost":
+//         case "Oktober":
+//         case "January":
+//             alert(`${a} has 31 days in it`)
+//             break;  
+//         case "April":
+//         case "June":
+//         case "November":
+//         case "September":
+//                 alert(`${a} has 30 days in it`)
+//                 break;
+//         case "Feburary":
+//                 alert("Feburary has 28 days in it")
+//                 break;
+//         default:
+//             alert("bele bir ay yoxdur")
+//             break;
+//     }
+// }
 
