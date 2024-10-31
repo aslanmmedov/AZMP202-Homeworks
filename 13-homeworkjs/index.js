@@ -256,8 +256,26 @@
 //     if(ortbal[index] > yuksek){
 //         yuksek = ortbal[index];
 //     }
-//     else if(ortbal[index] > 90){
+//   }
+//   for (let index = 0; index < ortbal.length; index++) {
+//     if(ortbal[index] > 90 && ortbal[index] <100){
 //         plus = ortbal[index]
 //     }
 //   }
 // console.log(`en yuksek:${yuksek}, 90 dan yuxari:${plus}`)
+
+
+
+// #pallindrom
+// let soz = "man"
+// let reverse = "";
+
+// for(let i = soz.length-1;i >=0;i--){
+//     reverse+=soz[i];
+// }
+// if(reverse != soz){
+//     console.log(`${soz} pallindrom  deyil`)
+// }
+// else{
+//     console.log(`${soz} pallindromdur`)
+// }
