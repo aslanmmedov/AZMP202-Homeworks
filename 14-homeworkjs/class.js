@@ -141,3 +141,31 @@
 // }
 
 // console.log(name)
+
+
+//#11
+
+
+
+
+
+//#12
+
+// function compare(array,array2) {
+//     let bool;
+//     for (let index = 0; index < array.length; index++) {
+//         if(array.length === array2.length){
+//             if(array[index] === array2[index]){
+//                 bool  = true ;
+//             }
+//             else{
+//                 bool = false;
+//             }
+//         }
+//         else{
+//             bool = false;
+//         }
+//     }
+//     return bool;
+// }
+// console.log(compare([1,2,3,4],[1,2,3,4]))
