@@ -32,9 +32,7 @@
 // function repeat(array) {
 //     let newarray = [];
 //     for (let index = 0; index < array.length; index++) {
-//         for (let i = 1; i < array.length; i++) {
-            
-//         }
+        
 //     }
 // }
 // console.log(expression([10,20,30,40,50,60,50,60]))
@@ -46,7 +44,7 @@
 // function Capitalization(sentence) {
 //     let split = sentence.split(" ")
 //     for (let index = 0; index < split.length; index++) {
-//         split[index].capitalize();
+//         split[index][0].toUppercase();
 //     }
 //     return split;
 // }
