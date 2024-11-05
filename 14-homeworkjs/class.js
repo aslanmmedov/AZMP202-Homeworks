@@ -65,15 +65,9 @@
 //#6
 
 
-// function wordcounter(sentence) {
-//     let split = sentence.split(" ")
-//     let counter = 0;
-//     for (let index = 0; index < split.length-1; index++) {
-//         counter++;
-//     }
-//     return counter;
-// }
-// console.log(wordcounter("aslan memmedov aslan aslan aslqn aslan aslan aslan aslan"))
+// 
+
+
 
 
 
@@ -159,7 +153,7 @@
 //             else{
 //                 bool = false;
 //             }
-//         }
+//         } 
 //         else{
 //             bool = false;
 //         }
