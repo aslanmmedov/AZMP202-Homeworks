@@ -1,13 +1,12 @@
 let cont = document.getElementById("container");
+let name = document.getElementById("inside");
 cont.style.display = "flex";
 cont.style.flexDirection = "column"
 cont.style.alignItems = "center";
 cont.style.justifyContent = "center";
 
 let value1 = document.getElementById("value1");
-let num1 = +value1;
 let value2 = document.getElementById("value2");
-let num2 = +value2;
 let addition = document.getElementById("addition");
 let substract = document.getElementById("Substract");
 let multiply = document.getElementById("Multiply");
@@ -17,20 +16,26 @@ let answer =document.getElementById("answer")
 
 addition.addEventListener("click",Addition);
 substract.addEventListener("click",Substraction);
-multiply.addEventListener("click",Multiply)
-division.addEventListener("click",Divide)
+multiply.addEventListener("click",Multiply);
+division.addEventListener("click",Divide);
+reset.addEventListener("click",Reset);
 
 
 
 function Divide(){
-    answer.textContent = num1/num2;
+    let sumdiv = +value1.value/ +value2.value;
+    answer.textContent = sumdiv;
 }
 function Multiply(){
-    answer.textContent = num1*num2;
+    answer.textContent = value1.value*value2.value;
 }
 function Substraction(){
-    answer.textContent = num1-num2;
+    answer.textContent = value1.value-value2.value;
 }
 function Addition(){
-    answer.textContent = num1+num2;
+    let sum = +value1.value+ +value2.value;
+    answer.textContent = sum;
+}
+function Reset(){
+    answer.textContent = 0;
 }
