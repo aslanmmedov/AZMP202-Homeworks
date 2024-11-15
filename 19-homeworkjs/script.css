@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bg-container{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    gap:1rem;
+}
+.container{
+    max-width:300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid black;
+    padding:20px;
+}
+.deleting{
+    display:none;
+}
+.img{
+    width:100%;
+}
+.img1{
+    width:100%;
+}
+.parag{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    color:cornflowerblue;
+}
+h4{
+    font-size:25px;
+    color:red;
+}
+.btns{
+    margin-top:1rem;
+    display:flex;
+    gap:20px;
+}
+button{
+    border:none;
+    border-radius: 5px;
+    padding:15px 20px;
+    color:white;
+    cursor:pointer;
+}
+.btn-1{
+    background-color: blue;
+}
+.btn-2{
+    background-color: gray;
+}
