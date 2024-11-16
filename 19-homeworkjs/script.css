@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -57,4 +57,37 @@ button{
 }
 .btn-2{
     background-color: gray;
+} */
+
+
+
+/* #2 */
+
+.table-black{
+    max-width:1200px;
+}
+.btn-rate{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    margin:20px 0 20px 0;
+}
+#cat-selector{
+    margin-left:1rem;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    background-color: #F0F0F0;
+    outline:none;
+}
+.search{
+    margin-left:1rem;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    background-color: #F0F0F0;
+    outline:none;
+}
+#delete{
+    color:red;
 }
