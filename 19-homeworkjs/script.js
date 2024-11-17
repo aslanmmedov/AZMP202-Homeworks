@@ -346,7 +346,6 @@ function fillTable(products){
                 <td>${element.rating.rate}</td>
                 <td><p style = "color:yellow;cursor:pointer;" class = "dlt-txt">${"Delete"}</p></td>
         `
-
         tablebody.appendChild(product);
     });
 }
