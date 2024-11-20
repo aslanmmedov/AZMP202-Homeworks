@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    width:1200px;
+    display:flex;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.register-box{
+    margin-top:200px;
+}
+.reg-inp-length{
+    width:400px;
+}
+.reg-header{
+    text-align: center;
+    margin-bottom:50px;
+}

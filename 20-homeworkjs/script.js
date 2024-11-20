@@ -35,12 +35,6 @@ add.addEventListener("click",function(){
     }
     
 })
-
-
-
-    
-
-
 function createTodo(todosemiArr){
     list.innerHTML = "";
     todosemiArr.forEach((todo) => {
