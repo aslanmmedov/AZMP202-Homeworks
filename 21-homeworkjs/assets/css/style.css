@@ -84,3 +84,27 @@ ul li a{
 .dis-none{
     display:none;
 }
+
+/* Champ Cards */
+
+.champ-cards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.champ-card{
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:1rem;
+}
+.img-champ{
+    width:100%;
+}
+.img-champ img{
+    width:100%;
+}

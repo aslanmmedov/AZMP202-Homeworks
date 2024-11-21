@@ -14,6 +14,9 @@ players.forEach(player => {
     }
 });
 
+
+
+
 window.addEventListener("DOMContentLoaded",function(){
     if(isLogged){
         playerRegister.classList.add("dis-none");
