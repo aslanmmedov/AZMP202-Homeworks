@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none !important;
 }
 .container{
     width:1200px;
@@ -11,13 +12,75 @@
     align-items: center;
     justify-content: center;
 }
-.register-box{
-    margin-top:200px;
+.register-box,.login-box{
+    margin-top:100px;
+    padding:2rem;
+    width:950px;
+    background-image:url("https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+label,h1{
+    color:#c8aa6e;
+    font-weight: 700;
+}
+.btn-red{
+    background-color: #c8aa6e ;
+    color:white;
+    font-weight: 600;
 }
 .reg-inp-length{
     width:400px;
+    background-color:transparent;
+    border:2px solid #c8aa6e;
 }
-.reg-header{
+.reg-header,.header-login{
     text-align: center;
     margin-bottom:50px;
+}
+
+
+/* Main Page */
+
+nav{
+    background-color: black;
+}
+.container1{
+    width:1200px;
+    margin:0 auto;
+    padding:1rem;
+    
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-menu .main-menu-ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+ul li a{
+    color:#c8aa6e;
+    font-size: larger;
+}
+.btn-red:hover{
+    background-color: black;
+    color:#c8aa6e;
+}
+.dis-none{
+    display:none;
 }
