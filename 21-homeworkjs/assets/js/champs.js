@@ -1,5 +1,6 @@
 import { champs } from "./data.js";
-
+import { exp } from "./functions.js";
+exp();
 let champCards = document.querySelector(".champ-cards");
 
 function fillTable(champs){
@@ -16,12 +17,14 @@ function fillTable(champs){
         <p class="champ-fakename">${champ.title}</p>
       </div>
       <div class="champ-icns">
-        <i class="fa-solid fa-circle-info champs-info"></i>
-        <i class="fa-solid fa-check champs-info"></i>
+      <a href="info.html?id=${champ.id}" class = "aaaa">
+      <i class="fa-solid fa-circle-info champs-info"></i>
+      </a>
+        <i class="fa-solid fa-check champs-info" data-id = "${champ.id}"></i>
       </div>
         `
         champCards.appendChild(champCard);
     });
-    console.log("aslan")
 }
+
 fillTable(champs);

@@ -108,3 +108,43 @@ ul li a{
 .img-champ img{
     width:100%;
 }
+
+.champ-icns{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}
+.champs-info{
+    font-size: 1.5rem;
+
+}
+.champs-color{
+    color:green;
+}
+/* Info cards */
+
+.container2{
+    max-width:1200px;
+    margin:80px auto;
+}
+.champ-info{
+    width:100%;
+    display:flex;
+    gap:1rem;
+}
+.img{
+    width:40%;
+}
+.inf-parag{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.champ-title{
+    color:darkgray;
+}
+.aaaa i{
+    color:#c8aa6e;
+}
