@@ -20,7 +20,6 @@ function deleteElement(id,btn){
 }
 
 
-
 function createCard(products){
     productCards.innerHTML = "";
     products.forEach(product => {

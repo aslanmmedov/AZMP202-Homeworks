@@ -2,6 +2,8 @@ import { champs } from "./data.js";
 import { exp } from "./functions.js";
 exp();
 let champCards = document.querySelector(".champ-cards");
+let players = JSON.parse(localStorage.getItem("players")) || [];
+let player = players.find((p) => p.islogged);
 
 function fillTable(champs){
     champCards.innerHTML = "";
@@ -20,11 +22,24 @@ function fillTable(champs){
       <a href="info.html?id=${champ.id}" class = "aaaa">
       <i class="fa-solid fa-circle-info champs-info"></i>
       </a>
-        <i class="fa-solid fa-check champs-info" data-id = "${champ.id}"></i>
+          <i class="fa-solid fa-check champs-main" data-id =${champ.id}></i>
       </div>
         `
         champCards.appendChild(champCard);
     });
+
+    let mainAdd = document.querySelectorAll(".champs-main");
+    mainAdd.forEach(btn => {
+      btn.addEventListener("click",function(btn){
+        if(player){
+        let mainId = this.getAttribute("data-id");
+        if(player.main.includes(mainId) !== true){
+        player.main.push(mainId)
+        localStorage.setItem("players", JSON.stringify(players));
+        }
+        } 
+      })
+    }); 
 }
 
 fillTable(champs);

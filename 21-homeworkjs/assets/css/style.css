@@ -69,9 +69,17 @@ nav{
     justify-content: center;
     gap:1rem;
 }
+a{
+    color:#c8aa6e;
+}
 ul{
     margin:0;
     padding:0;
+}
+ul li{
+    color:#c8aa6e;
+    font-size: larger;
+    cursor: pointer;
 }
 ul li a{
     color:#c8aa6e;
@@ -86,7 +94,13 @@ ul li a{
 }
 
 /* Champ Cards */
-
+#sectin-cards{
+    min-width:100vh;
+    background-image: url("https://sfx.thelazy.net/media/presetscreenshotscompare/Screenshot61434.bmp.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .champ-cards{
     display:flex;
     align-items: center;
@@ -108,27 +122,41 @@ ul li a{
 .img-champ img{
     width:100%;
 }
-
+.champ-name,.champ-fakename{
+    color:#c8aa6e;
+}
 .champ-icns{
     display:flex;
     gap:1rem;
     align-items: center;
     justify-content: center;
+    color:white;
+    font-size: 2rem;
+    cursor: pointer;
 }
 .champs-info{
     font-size: 1.5rem;
-
 }
 .champs-color{
     color:green;
 }
+.bbbb{
+    color:black;
+    font-size:1.5rem;
+}
 /* Info cards */
-
+#info{
+    min-height:300vh;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/9112b576009313.5c5ca8e8c45c3.jpg");
+    background-position: center;
+    background-size: cover;
+}
 .container2{
     max-width:1200px;
-    margin:80px auto;
+    margin:0 auto;
 }
 .champ-info{
+    margin-top:5rem;
     width:100%;
     display:flex;
     gap:1rem;
@@ -147,4 +175,38 @@ ul li a{
 }
 .aaaa i{
     color:#c8aa6e;
+    font-size: 2rem;
+}
+/* Your mains */
+.your-Mains{
+    display:flex;
+    flex-direction: column;
+}
+.your-mains{
+    margin-top:6rem;
+    padding:2rem;
+    width:100%;
+    display:flex;
+    gap:2rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #111f3b;
+}
+.img-main{
+    gap:2rem;
+    width:100%; 
+    border-radius: 10px;
+}
+.main-desc{
+    color:rgba(255, 255, 255, 0.669);
+}
+.container3{
+    max-width:1200px;
+    margin:0 auto;
+}
+#mains{
+    min-height:300vh;
+    background-image: url("https://preview.redd.it/in73r6sbixz31.png?width=1080&crop=smart&auto=webp&s=fc73810cff1c2be5bbd9a39397da5a23b1a63036");
+    background-position: center;
+    background-size: cover;
 }
