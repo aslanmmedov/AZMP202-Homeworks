@@ -1,5 +1,4 @@
 const BASE_DIR = "https://fakestoreapi.com/products";
-
 let productCards = document.querySelector(".product-cards");
 fetch(`${BASE_DIR}`).then((res) =>{
     return res.json();
