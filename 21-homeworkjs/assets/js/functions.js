@@ -5,10 +5,13 @@ export function exp(){
     const yourMains = document.querySelector(".mns")
     const players = JSON.parse(localStorage.getItem("players")) || [];
     
-
+    let isLogged = false;
     const player = players.find((p) => p.islogged);
+    if(player){
+        isLogged = true;
+    }
     window.addEventListener("DOMContentLoaded",function(){
-        if(player.islogged){
+        if(isLogged){
             playerRegister.classList.add("dis-none");
         }
         else{
@@ -16,7 +19,7 @@ export function exp(){
         }
     })
     yourMains.addEventListener("click",function(){
-        if(player.islogged){
+        if(isLogged){
             window.location.replace("mains.html")
         }
         else{
@@ -41,6 +44,7 @@ export function exp(){
             player.islogged = false;
             playerLogOut.classList.add("dis-none");
             playerRegister.classList.remove("dis-none");
+            window.location.replace("main.html");
         localStorage.setItem("players", JSON.stringify(players));
     })
     }

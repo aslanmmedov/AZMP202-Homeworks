@@ -38,6 +38,16 @@ function fillTable(champs){
         localStorage.setItem("players", JSON.stringify(players));
         }
         } 
+        else{
+          Swal.fire({
+            icon: "error",
+            title: "Login or Register please",
+            showConfirmButton: false,
+            timer: 1500
+          }).then(() => {
+            window.location.replace("login.html");
+          });
+        }
       })
     }); 
 }
