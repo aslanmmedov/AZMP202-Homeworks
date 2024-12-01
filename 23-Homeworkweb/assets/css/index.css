@@ -1,0 +1,254 @@
+nav{
+    background-color: #236D5A;
+    opacity: 0.8;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color:white;
+}
+.nav-menu ul{
+    display:flex;
+    gap:2rem;
+}
+.navbar{
+    padding:1.8rem;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.nav-logo{
+    font-size:1.4rem;
+    color:white;    
+}
+.nav-menu-hidden{
+    font-size: 1.4rem;
+    display:none;
+}
+/* hero-banner */
+header{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-banner{
+    min-height:700px;   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-banner span,h3{
+    margin-top:1rem;
+    color:#236D5A;
+}
+.hero-banner span{
+    font-size: 2rem;
+}
+.hero-banner h3{
+    font-size: 3rem;
+}
+/* Our mission section */
+
+#first-flow-card{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/gallery1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:700px; 
+}
+.mission-card{
+    height:500px;
+    margin:3rem auto;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.mission-parag{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+    padding:0 6rem;
+    color:white;
+    background-color: #236D5A;
+}
+.img-mission{
+    width:100%;
+    height:100%;
+}
+.img-mission img{
+    width:100%;
+    height:100%;
+}
+
+.mission-parag h2{
+    font-size: 2rem;
+}
+.mission-parag p{
+    width:300px;
+}
+.mission-parag button{
+    width:130px;
+    height:40px;
+    border:none;
+    background-color: #D8E3D5;
+}
+.mission-parag button:hover{
+    background-color: #bcdbb3;
+    color:#236D5A;
+}
+/* js flower-cards */
+
+#js-flower-cards{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:700px; 
+}
+.js-card-img img{
+    width:100%;
+}
+.js-card-parag{
+    color:#698063;
+    margin-top:1rem;
+    text-align: center;
+}
+.js-card-parag h4{
+    margin-bottom:1rem;
+}
+.js-head {
+    text-align: center;
+}
+.a{
+    padding-top:4rem;
+    color:#236D5A
+}
+.a p{
+    font-size: 2rem;
+    color:#236D5A;
+}
+.a h3{
+    font-size: 2rem;
+    margin:1rem 0 2rem 0;
+    color:#236D5A;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .nav-menu{
+        display:none;
+    }
+    .navbar{
+        padding:1.8rem;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        background-color: #236D5A;
+        opacity: 0.8;
+    }
+    .nav-logo{
+        font-size:1.4rem;
+        color:white;    
+    }
+    .nav-menu-hidden{
+        font-size: 1.4rem;
+    }
+    /* hero-banner */
+    header{
+        background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .hero-banner{
+        min-height:700px;   
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-banner span,h3{
+        color:#236D5A;
+    }
+    /* Our mission section */
+
+    #first-flow-card{
+        background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/gallery1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height:700px; 
+    }
+    .mission-card{
+        margin-top:3rem;
+        display:flex;
+        flex-direction: column;
+        height:290px;
+    }
+    .img-mission img{
+        width:100%;
+        height:100%;
+    }
+    .mission-parag{
+        background-color: #236D5A;
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        padding:1.5rem 1rem;
+        color:white;
+    }
+    .mission-parag h2{
+        font-size: 2rem;
+    }
+    .mission-parag button{
+        width:130px;
+        height:40px;
+        border:none;
+        background-color: #D8E3D5;
+    }
+    .mission-parag button:hover{
+        background-color: #bcdbb3;
+        color:#236D5A;
+    }
+    /* js flower-cards */
+
+    #js-flower-cards{
+        background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height:700px; 
+    }
+    .js-card-img img{
+        width:100%;
+    }
+    .js-card-parag{
+        color:#698063;
+        margin-top:1rem;
+        text-align: center;
+    }
+    .js-card-parag h4{
+        margin-bottom:1rem;
+    }
+    .js-head {
+        text-align: center;
+    }
+    .a{
+        padding-top:2rem;
+        color:#236D5A
+    }
+    .a h3{
+        margin:1rem 0 2rem 0;
+        color:#236D5A;
+    }
+
+
+    
+}
