@@ -1,0 +1,46 @@
+
+
+nav{
+    background-color:#20484f;
+    .navbar{
+        margin:0 auto;
+        max-width:1200px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0.5rem 0.8rem;
+        color:white;
+        
+        ul{
+            opacity: 0.6;
+            display:flex;
+            list-style-type: none;
+            gap:1rem;
+            li{
+                cursor:pointer;
+            }
+        }
+        h3{
+            opacity: 0.6;
+        }
+    .btnContainer{
+        display:flex;
+        gap:1rem;
+        .btn{
+            padding:0.4rem 0.6rem;
+            border-radius: 8px;
+            border:none;
+            cursor: pointer;
+        }
+        .btn-sign-up{
+            background-color: #b8e4da;
+            color:#20484f;
+        }
+        .btn-sign-in{
+            background-color: transparent;
+            color:white;
+        }
+    }
+        
+    }
+}
