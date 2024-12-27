@@ -18,6 +18,7 @@ import EditProduct from "./pages/editProd"
 import './App.css'
 import ClientProducts from "./pages/clientProducts"
 import ProductDetails from "./pages/productDetails"
+import Favorites from "./pages/favorites"
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
             <Route index element={<ClientProducts/>} />
             <Route path=":id" element={<ProductDetails />} />
         </Route>
+        <Route path="favorites" element={<Favorites />} />
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />

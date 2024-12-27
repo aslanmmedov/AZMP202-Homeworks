@@ -6,6 +6,8 @@ import { useEffect } from 'react';
 import { endpoints } from '../../helpers/constants';
 import styles from './index.module.css'
 import { useNavigate } from 'react-router-dom';
+import { FavoritesContext } from '../../contexts/favoritesContext';
+import { useContext } from 'react';
 const ClientProducts = () => {
   const [products, setProducts] = useState([]);
   const [search ,setSearch] = useState("");
@@ -15,6 +17,8 @@ const ClientProducts = () => {
     const data = await controller.getAllData(endpoints.products);
     setProducts(data.data)
   }
+
+  const { toggleFavorites, favorites } = useContext(FavoritesContext)
 
   const filteredProducts = products.filter((product) => 
   product.title.toLowerCase().includes(search.toLowerCase())
@@ -57,6 +61,9 @@ const ClientProducts = () => {
                     <button onClick = {() => {
                       navigateDetail(product.id)
                     }}>Detail</button>
+                </div>
+                <div className={styles.detailButton}>
+                    <button onClick = {() => toggleFavorites(product)}>{favorites.find((fav) => fav.id === product.id) ? "Out from favs" : "Add favs"}</button>
                 </div>
               </div>
             
