@@ -1,0 +1,33 @@
+
+.cardBody{
+    height:700px;
+    width:1000px;
+    display:flex;
+}
+.img{
+    width:800px;
+}
+.img img{
+    width:100%;
+
+}
+.cardTitle{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:0.6rem;
+}
+.cardTitle p{
+    font-size:0.9rem;
+    opacity: 0.6;
+}
+.cardTitle h3{
+    margin-top:1rem;
+    font-weight: 400;
+}
+.cardTitle h4{
+    color:#f16821;
+    font-weight: 400;
+}

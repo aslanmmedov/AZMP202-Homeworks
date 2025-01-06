@@ -1,0 +1,260 @@
+
+.getNotified{
+    margin-top:2rem;
+    width:100%; 
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    text-align: center;
+}
+.getNotified h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+.getNotified input{
+    padding:0.6rem 1rem;
+    border:3px solid white;
+    background-color: transparent;
+}
+.getNotified button{
+    padding:0.6rem 1rem;
+    border:3px solid white;
+    background-color: transparent;
+    color:white;
+    font-weight: 700;
+}
+.getNotified p{
+    margin-top:2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    padding:0 1rem;
+    margin-bottom: 4rem;
+    opacity: 0.8;
+}
+
+.heroBanner{
+    height:600px;
+    padding: 10rem 5rem;
+    width:100%; 
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    gap:0.7rem;
+}
+.shopWithUs{
+    font-size: 6rem;
+}
+p{
+    max-width:600px;
+ font-size: 1.2rem;
+}
+.shopNowbtn{
+    width:200px;
+    margin-top:2rem;
+    background-color: transparent;
+    border:3px solid white;
+    cursor: pointer;
+    color:white;
+    padding:0.6rem 1rem;
+    font-weight: 700;
+}
+.shopNowbtn:hover{
+    color:black;
+    background-color: white;
+}
+.membershipbtn{
+    width:200px;
+    background-color: white;
+    border:3px solid white;
+    cursor: pointer;
+    color:black;
+    padding:0.6rem 1rem;
+    font-weight: 700;
+}
+.membershipbtn:hover{
+    color:white;
+    background-color: transparent;
+}
+
+.cardTitle{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:0.6rem;
+}
+.cardTitle p{
+    font-size:0.9rem;
+    opacity: 0.6;
+}
+.cardTitle h3{
+    margin-top:1rem;
+    font-weight: 400;
+}
+.cardTitle h4{
+    color:#f16821;
+    font-weight: 400;
+}
+.sectionHead{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap:1rem;
+    padding:0 1rem;
+}
+.popularPr{
+    margin-top:4rem;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.sectheaders{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.sectionHead p{
+    font-size: 1rem;
+    opacity: 0.6;
+    margin-bottom:1rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .heroBanner{
+        height:400px;
+        padding:0 1rem;
+        width:100%; 
+        background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display:flex;
+        flex-direction: column;
+        color:white;
+        gap:0.7rem;
+    }
+    .shopWithUs{
+        font-size: 2.5rem;
+    }
+    p{
+     font-size: 1.2rem;
+    }
+    .shopNowbtn{
+        margin-top:2rem;
+        background-color: transparent;
+        border:3px solid white;
+        cursor: pointer;
+        color:white;
+        padding:0.6rem 1rem;
+        font-weight: 700;
+    }
+    .membershipbtn{
+        background-color: white;
+        border:3px solid white;
+        cursor: pointer;
+        color:black;
+        padding:0.6rem 1rem;
+        font-weight: 700;
+    }
+
+    .cardTitle{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap:0.6rem;
+    }
+    .cardTitle p{
+        font-size:0.9rem;
+        opacity: 0.6;
+    }
+    .cardTitle h3{
+        margin-top:1rem;
+        font-weight: 400;
+    }
+    .cardTitle h4{
+        color:#f16821;
+        font-weight: 400;
+    }
+
+
+
+    .sectionHead{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap:1rem;
+        padding:0 1rem;
+    }
+    .popularPr{
+        margin-top:4rem;
+        font-weight: 400;
+        opacity: 0.6;
+    }
+    .sectheaders{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .sectionHead p{
+        font-size: 1rem;
+        opacity: 0.6;
+        margin-bottom:1rem;
+    }
+
+    .getNotified{
+        width:100%; 
+        background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color:white;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+        text-align: center;
+    }
+    .getNotified h2{
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 400;
+
+    }
+    .getNotified input{
+        padding:0.6rem 1rem;
+        border:3px solid white;
+        background-color: transparent;
+    }
+    .getNotified button{
+        padding:0.6rem 1rem;
+        border:3px solid white;
+        background-color: transparent;
+        color:white;
+        font-weight: 700;
+    }
+    .getNotified p{
+        margin-top:2rem;
+        font-weight: 400;
+        font-size: 1rem;
+        padding:0 1rem;
+        margin-bottom: 4rem;
+        opacity: 0.8;
+    }
+}
