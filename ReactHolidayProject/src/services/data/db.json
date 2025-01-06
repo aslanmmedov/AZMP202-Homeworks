@@ -1,58 +1,74 @@
 {
-    "products" :[
-      {
-        "id": "1",
-        "title": "Wild West Hoodie",
-        "image": "https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg",
-        "rating": 5.0,
-        "reviews": 29,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "price": 29.99
-      },
-      {
-        "id": "2",
-        "title": "Wild West Hoodie",
-        "image": "https://preview.colorlib.com/theme/selling/images/model_2_bg.jpg",
-        "rating": 5.0,
-        "reviews": 29,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "price": 29.99
-      },
-      {
-        "id": "3",
-        "title": "Wild West Hoodie",
-        "image": "https://preview.colorlib.com/theme/selling/images/model_3_bg.jpg",
-        "rating": 5.0,
-        "reviews": 29,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "price": 29.99
-      },
-      {
-        "id": "4",
-        "title": "Wild West Hoodie",
-        "image": "https://preview.colorlib.com/theme/selling/images/model_4_bg.jpg",
-        "rating": 5.0,
-        "reviews": 29,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "price": 29.99
-      },
-      {
-        "id": "5",
-        "title": "Wild West Hoodie",
-        "image": "https://preview.colorlib.com/theme/selling/images/model_5_bg.jpg",
-        "rating": 5.0,
-        "reviews": 29,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "price": 29.99
-      },
-      {
-        "id": "6",
-        "title": "Wild West Hoodie",
-        "image": "https://preview.colorlib.com/theme/selling/images/product_1_bg.jpg",
-        "rating": 5.0,
-        "reviews": 29,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "price": 29.99
-      }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "title": "Wild West Hoodie",
+      "image": "https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg",
+      "rating": 5,
+      "reviews": 29,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+      "price": 29.99
+    },
+    {
+      "id": "2",
+      "title": "Wild West Hoodie",
+      "image": "https://preview.colorlib.com/theme/selling/images/model_2_bg.jpg",
+      "rating": 5,
+      "reviews": 29,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+      "price": 29.99
+    },
+    {
+      "id": "3",
+      "title": "Wild West Hoodie",
+      "image": "https://preview.colorlib.com/theme/selling/images/model_3_bg.jpg",
+      "rating": 5,
+      "reviews": 29,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+      "price": 29.99
+    },
+    {
+      "id": "4",
+      "title": "Wild West Hoodie",
+      "image": "https://preview.colorlib.com/theme/selling/images/model_4_bg.jpg",
+      "rating": 5,
+      "reviews": 29,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+      "price": 29.99
+    },
+    {
+      "id": "5",
+      "title": "Wild West Hoodie",
+      "image": "https://preview.colorlib.com/theme/selling/images/model_5_bg.jpg",
+      "rating": 5,
+      "reviews": 29,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+      "price": 29.99
+    },
+    {
+      "id": "6",
+      "title": "Wild West Hoodie",
+      "image": "https://preview.colorlib.com/theme/selling/images/product_1_bg.jpg",
+      "rating": 5,
+      "reviews": 29,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+      "price": 29.99
+    },
+    {
+      "id": "5j5frcP7EIdPdfDdnslxX",
+      "title": "aslann",
+      "description": "Ducimus aut vel mod",
+      "price": 30,
+      "image": "https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg",
+      "rating": 3
+    },
+    {
+      "id": "4_0axwTRKpV4FVBt6py44",
+      "title": "aslan",
+      "description": "aslannnnnnnnnnnnnnn",
+      "price": 30,
+      "image": "https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg",
+      "rating": 4
+    }
+  ]
 }

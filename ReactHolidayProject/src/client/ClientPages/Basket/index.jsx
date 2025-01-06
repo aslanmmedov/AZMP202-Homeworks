@@ -2,6 +2,7 @@ import React from 'react'
 import { useContext } from 'react'
 import { BasketContext } from '../../../context/addbasketcontext'
 import { AutoComplete, Button, Table } from 'antd';
+import { Helmet } from 'react-helmet-async'
 const Basket = () => {
     const {basket,addToBasket, removeBasketItem, increaseBasketCount, decreaseBasketCount, clearBasket, calculateTotalPrice} = useContext(BasketContext)
 
@@ -74,6 +75,11 @@ const Basket = () => {
         console.log('params', pagination, filters, sorter, extra);
       };
   return (
+    <>
+    <Helmet>
+        <title>Basket</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
     <div>
       <div style = {{width:'1200px',margin:'50px auto',}}>
       <Table
@@ -86,6 +92,8 @@ const Basket = () => {
   />
       </div>
     </div>
+    </>
+    
   )
 }
 

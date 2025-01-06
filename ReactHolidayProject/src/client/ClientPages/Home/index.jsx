@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from "./index.module.css"
 import controller from '../../../services/functions';
 import { endpoints } from '../../../services/constants';
+import { Helmet } from 'react-helmet-async'
 const Home = () => {
   const [products,setProducts] = useState([]);
 
@@ -15,6 +16,10 @@ const Home = () => {
     }, [])
   return (
     <>
+    <Helmet>
+        <title>Home Page</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
     <div className="container">
         <div className={styles.heroBanner}>
           <h1 className={styles.shopWithUs}>Shop With Us</h1>
